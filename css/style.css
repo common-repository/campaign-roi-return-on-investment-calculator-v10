@@ -1,0 +1,42 @@
+/*
+	 Organic Tabs
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+* { margin: 0; padding: 0; }
+body { font: 12px Georgia, serif; }
+html { overflow-y: scroll; }
+a { text-decoration: none; }
+a:focus { outline: 0; }
+p { font-size: 15px; margin: 0 0 20px 0; }
+#page-wrap { width: 200px; margin: 80px auto; }
+h1 { font: bold 40px Sans-Serif; margin: 0 0 20px 0; }
+
+/* Generic Utility */
+.hide { position: absolute; }
+
+
+/* Specific to example one */
+
+#tabs-affilicore_wp_ppc_media_roi_calculator { padding: 10px;  }
+
+#tabs-affilicore_wp_ppc_media_roi_calculator .nav { overflow: hidden; margin: 0 0 10px 0; }
+#tabs-affilicore_wp_ppc_media_roi_calculator .nav li { width: 70px; float: left; margin: 0 10px 0 0; }
+#tabs-affilicore_wp_ppc_media_roi_calculator .nav li.last { margin-right: 0; }
+#tabs-affilicore_wp_ppc_media_roi_calculator .nav li a { display: block; padding: 5px; background: #959290; color: white; font-size: 10px; text-align: center; border: 0; }
+#tabs-affilicore_wp_ppc_media_roi_calculator .nav li a:hover { background-color: #111; }
+
+#tabs-affilicore_wp_ppc_media_roi_calculator ul { list-style: none; }
+#tabs-affilicore_wp_ppc_media_roi_calculator ul li a { display: block; border-bottom: 1px solid #666; padding: 4px; color: #666; }
+#tabs-affilicore_wp_ppc_media_roi_calculator ul li a:hover { background: #fe4902; color: white; }
+#tabs-affilicore_wp_ppc_media_roi_calculator ul li:last-child a { border: none; }
+
+#tabs-affilicore_wp_ppc_media_roi_calculator ul li.nav-one a.current, #tabs-affilicore_wp_ppc_media_roi_calculator ul.tabs-1 li a:hover { background-color: green; color: white; }
+#tabs-affilicore_wp_ppc_media_roi_calculator ul li.nav-two a.current, #tabs-affilicore_wp_ppc_media_roi_calculator ul.tabs-2 li a:hover { background-color:#0575f4;  color: white; }
+#tabs-affilicore_wp_ppc_media_roi_calculator ul li.nav-three a.current, #tabs-affilicore_wp_ppc_media_roi_calculator ul.jquerytuts li a:hover { background-color: #8d01b0; color: white; }
+#tabs-affilicore_wp_ppc_media_roi_calculator ul li.nav-four a.current, #tabs-affilicore_wp_ppc_media_roi_calculator ul.classics li a:hover { background-color: #FE4902; color: white; }
+
+/* vtip css */
+p#vtip { display: none; position: absolute; padding: 10px; left: 5px; font-size: 0.8em; background-color: white; border: 1px solid #a6c9e2; -moz-border-radius: 5px; -webkit-border-radius: 5px; z-index: 9999 }
+p#vtip #vtipArrow { position: absolute; top: -10px; left: 5px }
